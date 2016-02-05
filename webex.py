@@ -3,9 +3,12 @@ import subprocess
 
 print ("hello world")
 
-if (1 == 1):
+a = 1
+b = 2
+
+if (1 == a):
 	print ("hello world")
-if (1 == 2):
+if (1 == b):
 	print ("I shouldn't print")
 else:
 	print ("It didn't print")
