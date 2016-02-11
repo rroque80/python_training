@@ -29,3 +29,16 @@ def iptest():
     for ip in iplist:
         print (ip)
         subprocess.call(['ping', '-c', '10', ip])
+
+def crazy_talk():
+    sane_variable = 2
+    what_to_print = ''
+    crazy_variable = 10000000
+    if crazy_variable == sane_variable:
+        what_to_print = 'hello world'
+    else:
+        print ('thats crazy talk')
+    if crazy_variable*crazy_variable == 25:
+        print ('this is NOT crazy talk')
+
+    print (what_to_print)
